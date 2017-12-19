@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="JYBounceHeader" customModuleProvider="target">
+            <connections>
+                <outlet property="tvTableview" destination="GVi-RU-rKV" id="Hva-fn-O31"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GVi-RU-rKV">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="OS9-fE-wQ4"/>
+                        <outlet property="delegate" destination="-1" id="pz8-tz-1Hj"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXz-iZ-R8E">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-U8-3dt">
+                            <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="4kr-U8-3dt" firstAttribute="leading" secondItem="BXz-iZ-R8E" secondAttribute="leading" id="9Md-Yk-xYu"/>
+                        <constraint firstItem="4kr-U8-3dt" firstAttribute="top" secondItem="BXz-iZ-R8E" secondAttribute="top" constant="20" id="JmH-nR-Y1P"/>
+                        <constraint firstAttribute="bottom" secondItem="4kr-U8-3dt" secondAttribute="bottom" id="cvo-a8-MPR"/>
+                        <constraint firstAttribute="trailing" secondItem="4kr-U8-3dt" secondAttribute="trailing" id="pPm-fz-CvH"/>
+                        <constraint firstAttribute="height" constant="64" id="vKC-po-sqw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BXz-iZ-R8E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3JZ-LE-dlT"/>
+                <constraint firstItem="GVi-RU-rKV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5vK-YI-SUg"/>
+                <constraint firstItem="GVi-RU-rKV" firstAttribute="top" secondItem="BXz-iZ-R8E" secondAttribute="bottom" id="Alh-xY-fi7"/>
+                <constraint firstAttribute="trailing" secondItem="GVi-RU-rKV" secondAttribute="trailing" id="CTB-O1-NxL"/>
+                <constraint firstAttribute="trailing" secondItem="BXz-iZ-R8E" secondAttribute="trailing" id="TyZ-Uj-Kbj"/>
+                <constraint firstItem="BXz-iZ-R8E" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Z2V-gW-rG1"/>
+                <constraint firstAttribute="bottom" secondItem="GVi-RU-rKV" secondAttribute="bottom" id="qWt-eL-MkX"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

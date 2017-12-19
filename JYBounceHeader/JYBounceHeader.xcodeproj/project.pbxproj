@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		03451D471FE7AFCE00C7D314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03451D461FE7AFCE00C7D314 /* AppDelegate.swift */; };
-		03451D491FE7AFCE00C7D314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03451D481FE7AFCE00C7D314 /* ViewController.swift */; };
-		03451D4C1FE7AFCE00C7D314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03451D4A1FE7AFCE00C7D314 /* Main.storyboard */; };
 		03451D4E1FE7AFCE00C7D314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03451D4D1FE7AFCE00C7D314 /* Assets.xcassets */; };
 		03451D511FE7AFCE00C7D314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03451D4F1FE7AFCE00C7D314 /* LaunchScreen.storyboard */; };
+		03451D591FE7B11E00C7D314 /* JYBounceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03451D581FE7B11E00C7D314 /* JYBounceHeader.swift */; };
+		03451D5E1FE7B82400C7D314 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03451D5C1FE7B82400C7D314 /* HomeVC.swift */; };
+		03451D5F1FE7B82400C7D314 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03451D5D1FE7B82400C7D314 /* HomeVC.xib */; };
+		03451D621FE7BADA00C7D314 /* ExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03451D601FE7BADA00C7D314 /* ExampleVC.swift */; };
+		03451D631FE7BADA00C7D314 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03451D611FE7BADA00C7D314 /* ExampleVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03451D431FE7AFCD00C7D314 /* JYBounceHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYBounceHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03451D461FE7AFCE00C7D314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03451D481FE7AFCE00C7D314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03451D4B1FE7AFCE00C7D314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03451D4D1FE7AFCE00C7D314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03451D501FE7AFCE00C7D314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03451D521FE7AFCE00C7D314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03451D581FE7B11E00C7D314 /* JYBounceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYBounceHeader.swift; sourceTree = "<group>"; };
+		03451D5C1FE7B82400C7D314 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		03451D5D1FE7B82400C7D314 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		03451D601FE7BADA00C7D314 /* ExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleVC.swift; sourceTree = "<group>"; };
+		03451D611FE7BADA00C7D314 /* ExampleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				03451D461FE7AFCE00C7D314 /* AppDelegate.swift */,
-				03451D481FE7AFCE00C7D314 /* ViewController.swift */,
-				03451D4A1FE7AFCE00C7D314 /* Main.storyboard */,
+				03451D5C1FE7B82400C7D314 /* HomeVC.swift */,
+				03451D5D1FE7B82400C7D314 /* HomeVC.xib */,
 				03451D4D1FE7AFCE00C7D314 /* Assets.xcassets */,
 				03451D4F1FE7AFCE00C7D314 /* LaunchScreen.storyboard */,
 				03451D521FE7AFCE00C7D314 /* Info.plist */,
+				03451D581FE7B11E00C7D314 /* JYBounceHeader.swift */,
+				03451D601FE7BADA00C7D314 /* ExampleVC.swift */,
+				03451D611FE7BADA00C7D314 /* ExampleVC.xib */,
 			);
 			path = JYBounceHeader;
 			sourceTree = "<group>";
@@ -92,7 +101,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "박지연";
+				ORGANIZATIONNAME = "Park ji yeon";
 				TargetAttributes = {
 					03451D421FE7AFCD00C7D314 = {
 						CreatedOnToolsVersion = 9.2;
@@ -123,9 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03451D5F1FE7B82400C7D314 /* HomeVC.xib in Resources */,
 				03451D511FE7AFCE00C7D314 /* LaunchScreen.storyboard in Resources */,
 				03451D4E1FE7AFCE00C7D314 /* Assets.xcassets in Resources */,
-				03451D4C1FE7AFCE00C7D314 /* Main.storyboard in Resources */,
+				03451D631FE7BADA00C7D314 /* ExampleVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +146,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03451D491FE7AFCE00C7D314 /* ViewController.swift in Sources */,
+				03451D591FE7B11E00C7D314 /* JYBounceHeader.swift in Sources */,
+				03451D5E1FE7B82400C7D314 /* HomeVC.swift in Sources */,
 				03451D471FE7AFCE00C7D314 /* AppDelegate.swift in Sources */,
+				03451D621FE7BADA00C7D314 /* ExampleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03451D4A1FE7AFCE00C7D314 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03451D4B1FE7AFCE00C7D314 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03451D4F1FE7AFCE00C7D314 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33MEKFPG6G;
 				INFOPLIST_FILE = JYBounceHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiyeonpark.JYBounceHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33MEKFPG6G;
 				INFOPLIST_FILE = JYBounceHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiyeonpark.JYBounceHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
